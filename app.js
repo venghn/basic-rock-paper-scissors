@@ -78,6 +78,7 @@ let roundCalc=(cpu, player)=> {
     })();
 };
 
+// Update message display after each round
 function displayText(message){
     let displayMessage=document.getElementById("gameMessage");
     if (displayMessage !=null){console.log(displayMessage.remove())}
